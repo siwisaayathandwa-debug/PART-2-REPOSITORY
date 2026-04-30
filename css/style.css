@@ -1,0 +1,48 @@
+a:hover{
+background-color: rgb(0, 128, 255);
+}
+/*Main Heading h1*/
+h1,h2{
+   color: rgb(14, 107, 189);
+   text-align: center;
+   text-decoration: underline overline;
+   margin: 20px;
+}
+/*Paragrah*/
+p{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+/*Shared container styling*/
+.map-container,
+.form-container{
+   width: 80%;
+   margin: 30px auto;
+   margin: 30px auto;
+   border-radius: 10px;
+   overflow: hidden;/*keeps rounded corners clean*/
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+/*Map iframe*/
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+
+}
+/*Google Form iframe*/ 
+.form-container iframe{
+    width: 100%;
+    height: 600px;
+    border: none;
+
+}
+/*Optional: headings above embeds*/
+.embed-title{
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+
+}
